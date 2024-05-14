@@ -1,6 +1,30 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
+const myFirstName = 'Phillip';
+console.log(myFirstName);
+
+const myLastName = "Sutton";
+console.log(myLastName);
+
+const myFavoriteCeleb = "Sylvester Stallone";
+console.log(myFavoriteCeleb);
+
+const mySentence = `Hello, my name is ${myFirstName} ${myLastName}, and my favorite celebrity is ${myFavoriteCeleb}.`;
+
+const myLuckyNum = 7; // Convert to a number
+const myAge = 45; // Convert to a number
+const myHeight = 68; // Convert to a number
+const myFavoriteYear = "1987"; // This can remain a string
+
+const mySum = 5 + 2317 + 36;
+console.log(`The sum is: ${mySum}`);
+
+const myProduct = 232 * 43 / 2 + 4;
+console.log(`The value of myProduct is: ${myProduct}`);
+
+const myHeightAndAge = myAge + myHeight; // Numeric sum
+console.log(`My height and age combined: ${myHeightAndAge}`);
 
 
 /*********************************************************************************************************************
