@@ -4,6 +4,24 @@ Your code goes below.
 
 */
 
+var x = 3;
+  var y = 5;
+  var z = 10;
+  var name = "Phillip";
+  var greeting ="hey"
+  function multiply(num) {
+    x *= num;
+}
+console.log(x);
+multiply(z);
+console.log(x);
+function modYBy(num) {
+    y %= num;
+}
+console.log(y); 
+modYBy(z);
+console.log(y);
+ 
 
 
 
