@@ -1,6 +1,45 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+var x = 3;
+let y = 10;
+let z = 4;
+let greeting = "Hello";
+let firstName = "Phillip";
+let callStatus = 'ringing';
+
+var double = function(num) {
+    return num * 2;
+};
+console.log(double(x));
+
+var triple = function(num) {
+    return num * 3;
+};
+console.log(triple(y));
+
+var square = function(num) {
+    return num * num;
+};
+console.log(square(z));
+var beNice = function(){
+  greeting = "Hello" + firstName;
+};
+beNice();
+console.log(greeting);
+
+var changeName = function() {
+    firstName = "Danger";
+};
+changeName();
+console.log(firstName); 
+
+var hangUp = function() {
+    callStatus = 'call ended';
+};
+hangUp();
+console.log(callStatus);
+
 
 
 
